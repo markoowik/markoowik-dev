@@ -10,6 +10,7 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>JavaScript, ReactJS, HTML, CSS, NPM, BootStrap</p>
+              <img src="" alt="" />
             </li>
             {/* <li className="content-list__item">
               <h2 className="title-2">Backend</h2>

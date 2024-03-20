@@ -7,7 +7,7 @@ const services = [
     img: services01,
     desk: "In developing!",
     price: "100$",
-    btnOrder: "Order",
+    ButtonOrder: "Order",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const services = [
     img: services01,
     desk: "In developing!",
     price: "200$",
-    btnOrder: "Order",
+    ButtonOrder: "Order",
   },
 ];
 

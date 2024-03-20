@@ -58,6 +58,9 @@ const Navbar = () => {
                 Services
               </NavLink>
             </li>
+            <NavLink className="singin" to="/signin">
+              Войти
+            </NavLink>
           </ul>
         </div>
       </div>

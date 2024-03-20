@@ -13,6 +13,8 @@ import Service from "./pages/Services";
 
 import ScrollToTop from "./utils/ScrollToTop";
 
+// import Basket from "./components/basket/Basket";
+
 function App() {
   return (
     <div className="App">
