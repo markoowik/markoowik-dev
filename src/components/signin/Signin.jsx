@@ -2,14 +2,9 @@ import { useState } from "react";
 
 import "./style.css";
 // import "./tg";
-import Services from "../Service/Services";
 import { useParams } from "react-router-dom";
-import { services } from "../../helpers/servicesList";
 
 const Signin = ({ selectedService, title }) => {
-  const { id } = useParams();
-  const service = services[id];
-
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
 

@@ -1,5 +1,5 @@
 import Services from "../components/Service/Services";
-import Signin from "../components/signin/Signin";
+
 import { services } from "./../helpers/servicesList";
 
 const Service = () => {
