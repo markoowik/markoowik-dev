@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/markoowik-dev/static/css/main.f7c34a06.css",
+    "main.css": "/markoowik-dev/static/css/main.42b9cd77.css",
     "main.js": "/markoowik-dev/static/js/main.9468709f.js",
     "static/js/592.ca10888b.chunk.js": "/markoowik-dev/static/js/592.ca10888b.chunk.js",
     "static/media/04-big.jpg": "/markoowik-dev/static/media/04-big.9dc8caf822c4a4116af4.jpg",
@@ -26,12 +26,12 @@
     "static/media/twitter.svg": "/markoowik-dev/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "static/media/linkedIn.svg": "/markoowik-dev/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/markoowik-dev/index.html",
-    "main.f7c34a06.css.map": "/markoowik-dev/static/css/main.f7c34a06.css.map",
+    "main.42b9cd77.css.map": "/markoowik-dev/static/css/main.42b9cd77.css.map",
     "main.9468709f.js.map": "/markoowik-dev/static/js/main.9468709f.js.map",
     "592.ca10888b.chunk.js.map": "/markoowik-dev/static/js/592.ca10888b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c34a06.css",
+    "static/css/main.42b9cd77.css",
     "static/js/main.9468709f.js"
   ]
 }
