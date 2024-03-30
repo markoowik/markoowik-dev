@@ -657,9 +657,10 @@ body {
     width: 250px;
     height: 420px;
     position: fixed;
-    left: 30px;
-    top: 80px;
+    left: 70px;
+    top: 170px;
   }
+
   .modal-img {
     position: relative;
     left: 260px;
