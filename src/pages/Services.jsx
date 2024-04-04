@@ -100,13 +100,16 @@ const Services = () => {
                 <div className="modal_wrapper">
                   <div className="text_content">
                     <img className="modal-img" src={service.img} alt="" />
-                    <div className="text__content-title">
+                    {/* <div className="text__content-title">
                       <h2>Услуга: {service.title}</h2>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="input__content">
                     <form onSubmit={handleSubmit}>
                       <div className="signin__login">
+                        <div className="text__content-title">
+                          <h2>Услуга: {service.title}</h2>
+                        </div>
                         <label className="label" htmlFor="text">
                           <h1>Login:</h1>
                         </label>
@@ -116,6 +119,7 @@ const Services = () => {
                           id="text"
                           value={inputValue1}
                           onChange={handleInputChange1}
+                          placeholder="Введите свой логин"
                         />
                       </div>
 
@@ -129,6 +133,7 @@ const Services = () => {
                           id="phone"
                           value={inputValue2}
                           onChange={handleInputChange2}
+                          placeholder="Введите свой номер"
                         />
                       </div>
 
