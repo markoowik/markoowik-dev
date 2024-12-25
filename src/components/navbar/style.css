@@ -37,6 +37,8 @@
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  /* padding-top: 10px; */
+  margin-bottom: -5px;
 }
 
 .nav-list__link {
@@ -64,10 +66,17 @@
   width: 100%;
   background-color: var(--accent);
 }
-.singin {
+.btn-primary {
+  padding: 15px 30px;
+  background-color: var(--accent);
+  border-radius: 10px;
+}
+/* .signin1 {
   display: inline-block;
+  justify-content: center;
+  align-items: center;
   height: 48px;
-  padding: 12px 28px;
+  padding: 2px 20px;
 
   border-radius: 5px;
   background-color: var(--accent);
@@ -75,4 +84,46 @@
   letter-spacing: 0.15px;
   font-size: 16px;
   font-weight: 500;
+} */
+.profile {
+  position: relative;
+  left: 90px;
+  width: 30px;
+  cursor: pointer;
+}
+.modalProfile {
+  width: 220px;
+  height: 250px;
+  background-color: #fff;
+  color: #333;
+  position: fixed;
+  left: 1250px;
+  top: 120px;
+  z-index: 5;
+  border-radius: 10px;
+}
+.modalProfile_wrapper {
+  padding: 10px 10px;
+}
+.modalProfile_title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  margin-left: 42px;
+}
+.modalProfile__list {
+  text-align: center;
+  position: relative;
+  right: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modalProfile__list li a {
+  width: 150px;
+}
+.btn-primary {
+  color: #fff;
 }

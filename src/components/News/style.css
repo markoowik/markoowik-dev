@@ -1,0 +1,15 @@
+.content-list-tg {
+  border: 1px solid var(--news-card-bg);
+  border-radius: 8px;
+  background-color: var(--news-card-bg);
+  box-shadow: var(--box-shadow);
+}
+
+.news-content {
+  display: flex;
+  gap: 480px;
+}
+.news__data {
+  margin-top: 20px;
+  color: var(--data);
+}

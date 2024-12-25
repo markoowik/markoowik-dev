@@ -16,10 +16,12 @@ const Service = () => {
                   title={service.title}
                   img={service.img}
                   index={index}
-                  text={service.desk}
+
+                  // ={service.desk}
                 />
               );
             })}
+
             {/* {services.map((service, index) => {
               return (
                 <Signin

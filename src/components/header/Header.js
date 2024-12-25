@@ -1,12 +1,9 @@
 import React from "react";
 
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  const btnDownload = () => {
-    alert("В разработке!");
-  };
-
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -19,9 +16,11 @@ const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn" onClick={btnDownload}>
-          Download CV
-        </a>
+        <NavLink to="/contacts">
+          <a href="#!" className="btn">
+            Connect with us
+          </a>
+        </NavLink>
       </div>
     </header>
   );

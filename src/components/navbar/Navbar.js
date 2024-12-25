@@ -2,8 +2,9 @@ import { NavLink } from "react-router-dom";
 
 import "./style.css";
 import BtnDarkmode from "../btnDarkMode/btnDarkMode";
+import ProfileIcon from "./ProfileIcon";
 
-const Navbar = () => {
+const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
   const activeLink = "nav-list__link nav-list__link--active";
   const normalLink = "nav-list__link";
 
@@ -57,6 +58,24 @@ const Navbar = () => {
               >
                 Services
               </NavLink>
+            </li>
+            <li className="nav-list_item">
+              {isLoggedIn ? (
+                <div className="profile">
+                  <ProfileIcon />
+                </div>
+              ) : (
+                <div className="btn-primary">
+                  <NavLink
+                    to="/login"
+                    className={({ isActive }) =>
+                      isActive ? activeLink : normalLink
+                    }
+                  >
+                    Войти
+                  </NavLink>
+                </div>
+              )}
             </li>
           </ul>
         </div>

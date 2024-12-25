@@ -5,6 +5,7 @@ import instagram from "./../../img/icons/instagram.svg";
 import twitter from "./../../img/icons/twitter.svg";
 import github from "./../../img/icons/gitHub.svg";
 import linkendin from "./../../img/icons/linkedIn.svg";
+import telegram from "./../../img/icons/icons8-telegram (3).svg";
 
 const Footer = () => {
   const alert1 = () => {
@@ -40,7 +41,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.instagram.com/markoowik.dev"
+                href="https://www.instagram.com/alisher.s05"
                 onClick={alert1}
               >
                 <img src={instagram} alt="Link" />
@@ -73,9 +74,18 @@ const Footer = () => {
                 <img src={linkendin} alt="Link" />
               </a>
             </li>
+            <li className="social__item">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://t.me/+AqoiUILv8-1kYTli"
+              >
+                <img src={telegram} alt="Link" />
+              </a>
+            </li>
           </ul>
           <div className="copyright">
-            <p>© 2024 markoowik-dev.com & web cademy</p>
+            <p>© 2025 markoowik-dev.com & web cademy</p>
           </div>
         </div>
       </div>

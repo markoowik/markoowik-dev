@@ -1,7 +1,10 @@
 import { useParams } from "react-router-dom";
 import { services } from "./../helpers/servicesList";
 
+import CloseButton from "react-bootstrap/CloseButton";
+
 import { useState } from "react";
+import axios from "axios";
 
 const Services = () => {
   const { id } = useParams();
@@ -19,6 +22,28 @@ const Services = () => {
   const [inputValue1, setInputValue1] = useState("");
   const [inputValue2, setInputValue2] = useState("");
 
+  const handleUpload = async () => {
+    try {
+      const formData = new FormData();
+      formData.append("photo", file);
+      const TOKEN = "6694635250:AAExR03_oeftggu7AQEkey_UhFGv21Zu-y4";
+
+      // Замените 'YOUR_BOT_TOKEN' на реальный токен вашего бота
+      const response = await axios.post(
+        `https://api.telegram.org/bot${TOKEN}/sendPhoto`,
+        formData,
+        {
+          params: {
+            chat_id: "1033246135", // Замените на ID чата
+          },
+        }
+      );
+
+      console.log("Фотография успешно отправлена:", response.data);
+    } catch (error) {
+      console.error("Ошибка при отправке фотографии:", error);
+    }
+  };
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -31,6 +56,7 @@ const Services = () => {
             Имя клиента: ${inputValue1};
             Названия услуга: ${service.title};
             Телефон клиента: ${inputValue2};
+            img: ${file};
         `;
 
     try {
@@ -73,6 +99,13 @@ const Services = () => {
   // };
 
   const isButtonDisabled = !inputValue1 || !inputValue2;
+
+  const [file, setFile] = useState(null);
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
+
   return (
     <main className="section">
       <div className="container">
@@ -95,7 +128,7 @@ const Services = () => {
             {showModal && (
               <div className="modal">
                 <button className="closeModal" onClick={closeModal}>
-                  X
+                  <CloseButton />
                 </button>
                 <div className="modal_wrapper">
                   <div className="text_content">
@@ -136,12 +169,28 @@ const Services = () => {
                           placeholder="Введите свой номер"
                         />
                       </div>
-
+                      <div className="signin">
+                        <div class="input-group mb-3">
+                          <input
+                            onChange={handleFileChange}
+                            type="file"
+                            class="form-control"
+                            id="inputGroupFile02"
+                          />
+                          <label
+                            class="input-group-text"
+                            for="inputGroupFile02"
+                          >
+                            Upload
+                          </label>
+                        </div>
+                      </div>
                       <div className="signin__login-btn" id="signin__login-btn">
                         <button
                           id="btn"
                           type="submit"
                           disabled={isButtonDisabled}
+                          onClick={handleUpload}
                           style={{
                             transition: "opacity 0.3s ease", // Плавное изменение
                             opacity: isButtonDisabled ? 0.5 : 1, // Установка прозрачности

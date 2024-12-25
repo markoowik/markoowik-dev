@@ -1,4 +1,7 @@
 const Contacts = () => {
+  const link = () => {
+    alert("Вы хотите переходить по ссылкам?");
+  };
   return (
     <main className="section">
       <div className="container">
@@ -12,7 +15,12 @@ const Contacts = () => {
           <li className="content-list__item">
             <h2 className="title-2">Telegram</h2>
             <p>
-              <a target="_blank" rel="noreferrer" href="https://t.me/markoowik">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://t.me/markoowik"
+                onClick={link}
+              >
                 @markoowik.dev
               </a>
             </p>
