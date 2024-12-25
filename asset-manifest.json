@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/markoowik-dev/static/css/main.10d0580d.css",
-    "main.js": "/markoowik-dev/static/js/main.0bb2e942.js",
+    "main.css": "/markoowik-dev/static/css/main.6419c486.css",
+    "main.js": "/markoowik-dev/static/js/main.571659fc.js",
     "static/js/453.c542835e.chunk.js": "/markoowik-dev/static/js/453.c542835e.chunk.js",
     "static/media/04-big.jpg": "/markoowik-dev/static/media/04-big.9dc8caf822c4a4116af4.jpg",
     "static/media/01-big.jpg": "/markoowik-dev/static/media/01-big.ecb03349664096d93b17.jpg",
@@ -13,25 +13,29 @@
     "static/media/01.jpg": "/markoowik-dev/static/media/01.793b5447d182a00fa739.jpg",
     "static/media/03.jpg": "/markoowik-dev/static/media/03.a1f0cefe3665b6313065.jpg",
     "static/media/05.jpg": "/markoowik-dev/static/media/05.497e1d12eb46a0b52271.jpg",
+    "static/media/markoowik.jpeg": "/markoowik-dev/static/media/markoowik.54dbce035e772c0b5248.jpeg",
     "static/media/06.jpg": "/markoowik-dev/static/media/06.86ff2b3c4326d053ac65.jpg",
     "static/media/02.jpg": "/markoowik-dev/static/media/02.97324eaa701fadea307f.jpg",
     "static/media/website.png": "/markoowik-dev/static/media/website.bd27e61467ebc29d3441.png",
+    "static/media/tg-bot.jpeg": "/markoowik-dev/static/media/tg-bot.8e3bbafd0aa25b1ef46e.jpeg",
     "static/media/header-bg.png": "/markoowik-dev/static/media/header-bg.5bf82a058f892ab7f237.png",
     "static/media/sun.svg": "/markoowik-dev/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
     "static/media/moon.svg": "/markoowik-dev/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
     "static/media/gitHub.svg": "/markoowik-dev/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
     "static/media/gitHub-black.svg": "/markoowik-dev/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
     "static/media/instagram.svg": "/markoowik-dev/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "index.html": "/markoowik-dev/index.html",
     "static/media/vk.svg": "/markoowik-dev/static/media/vk.ffb489eeac4ab842395ffb315910ea7f.svg",
     "static/media/twitter.svg": "/markoowik-dev/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
     "static/media/linkedIn.svg": "/markoowik-dev/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
-    "index.html": "/markoowik-dev/index.html",
-    "main.10d0580d.css.map": "/markoowik-dev/static/css/main.10d0580d.css.map",
-    "main.0bb2e942.js.map": "/markoowik-dev/static/js/main.0bb2e942.js.map",
+    "static/media/icons8-telegram (3).svg": "/markoowik-dev/static/media/icons8-telegram (3).21e51784f33748a202cd098cf379f8df.svg",
+    "static/media/telegramIcon.svg": "/markoowik-dev/static/media/telegramIcon.63372b4bb0a619d889390fe192124b1a.svg",
+    "main.6419c486.css.map": "/markoowik-dev/static/css/main.6419c486.css.map",
+    "main.571659fc.js.map": "/markoowik-dev/static/js/main.571659fc.js.map",
     "453.c542835e.chunk.js.map": "/markoowik-dev/static/js/453.c542835e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10d0580d.css",
-    "static/js/main.0bb2e942.js"
+    "static/css/main.6419c486.css",
+    "static/js/main.571659fc.js"
   ]
 }
