@@ -12,7 +12,7 @@ const ProfileIcon = ({ isLoggedIn }) => {
   const closeModal = () => {
     setShowModal(false);
   };
-  const name = localStorage.getItem("username");
+  const name = localStorage.getItem("name");
 
   return (
     <>
