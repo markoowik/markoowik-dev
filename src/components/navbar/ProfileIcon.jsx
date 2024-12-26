@@ -12,7 +12,8 @@ const ProfileIcon = ({ isLoggedIn }) => {
   const closeModal = () => {
     setShowModal(false);
   };
-  const name = localStorage.getItem("name");
+  const name = localStorage.getItem("users");
+
   return (
     <>
       <CgProfile className="profile" onClick={openModal} />
